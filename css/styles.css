@@ -5,6 +5,8 @@ font-family: 'Roboto', sans-serif;
 body{
 	font-family: 'Roboto', sans-serif;
 	color: var(--slate);
+	padding: 0;
+	margin: 0;
 }
 
 :root{
