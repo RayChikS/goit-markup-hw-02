@@ -22,19 +22,32 @@ body{
 
 .logo{
 	font-family: 'Raleway', sans-serif;
-	color: var(--navyblue);
+	color: var(--iris);
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 116.667%;
+	line-height: 1.17%;
 	letter-spacing: 0.54px;
-	text-decoration: none;
 	text-transform: uppercase;
 }
 
+
 .logo-span{
-	color: var(--iris);
+	color: var(--navyblue);
 }
 
+
+.link{
+	text-decoration: none;
+}
+
+
+
+
+
+
+.list{
+	list-style: none
+}
 
 
 .nav-item{
