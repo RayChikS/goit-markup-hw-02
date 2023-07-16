@@ -5,8 +5,7 @@ font-family: 'Roboto', sans-serif;
 body{
 	font-family: 'Roboto', sans-serif;
 	color: var(--slate);
-	padding: 0;
-	margin: 0;
+	color: var(--white);
 }
 
 :root{
@@ -23,8 +22,6 @@ body{
 
 .logo{
 	font-family: 'Raleway', sans-serif;
-	height: 24px;
-	align-items: center;
 	color: var(--navyblue);
 	font-weight: 800;
 	font-size: 18px;
@@ -92,10 +89,7 @@ body{
 	font-weight: 500;
 	line-height: 150%;
 	letter-spacing: 0.64px;
-	border-radius: 4px;
 	background: var(--iris);
-	padding: 16px 32px;
-	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .intro-button:hover{
 	background-color: var(--ocean);
@@ -154,14 +148,7 @@ body{
 
 
 .team-item{
-	border-radius: 0px 0px 4px 4px;
 	background: var(--white);
-	box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-	width: 264;
-	height: 380;
-	margin-right: 0;
 }
 
 
@@ -246,7 +233,6 @@ body{
 
 
 .categories-button{
-	border-radius: 4px;
 	border: 1px solid var(--cornflower);
 	background: var(--cloud);
 	color: var(--iris, #4D5AE5);
@@ -256,12 +242,10 @@ body{
 	font-weight: 500;
 	line-height: 150%;
 	letter-spacing: 0.64px;
-	padding: 12px 24px;
 }
 .categories-button:hover{
 	color: var(--white);
 	background-color: var(--ocean);
-	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 
