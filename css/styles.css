@@ -25,7 +25,7 @@ body{
 	color: var(--iris);
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 1.17px;
+	line-height: 1.17;
 	letter-spacing: 0.54px;
 	text-transform: uppercase;
 }
@@ -57,10 +57,18 @@ body{
 	font-weight: 500;
 	line-height: 150%;
 	letter-spacing: 0.02em;
-	text-decoration: none;
+}
+.nav-item:hover,
+.nav-item:hover{
+	color: #404bbf;
 }
 .nav-item:active{
 	color: var(--ocean);
+}
+
+
+.address{
+	font-style: normal;
 }
 
 
@@ -70,7 +78,10 @@ body{
 	font-size: 16px;
 	line-height: 150%;
 	letter-spacing: 0.32px;
-	text-decoration: none;
+}
+.address-item:hover,
+.address-item:hover{
+	color: #404bbf;
 }
 .address-item:active{
 	color: var(--ocean);
