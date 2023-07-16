@@ -103,8 +103,10 @@ body{
 	line-height: 150%;
 	letter-spacing: 0.64px;
 	background: var(--iris);
+	cursor: pointer
 }
-.intro-button:hover{
+.intro-button:hover,
+.intro-button:focus{
 	background-color: var(--ocean);
 }
 
@@ -161,7 +163,7 @@ body{
 
 
 .team-item{
-	background-color: var(--white);
+	background-color: #F4F4FD
 }
 
 
@@ -207,11 +209,11 @@ body{
 
 
 .footer-logo{
-	color: var(--cloud);
+	color: var(--iris);
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	font-weight: 800;
-	line-height: 116.667%;
+	line-height: 1.17;
 	letter-spacing: 0.54px;
 	text-transform: uppercase;
 	text-decoration: none;
