@@ -59,7 +59,7 @@ body{
 	letter-spacing: 0.02em;
 }
 .nav-item:hover,
-.nav-item:hover{
+.nav-item:focus{
 	color: #404bbf;
 }
 .nav-item:active{
@@ -80,7 +80,7 @@ body{
 	letter-spacing: 0.32px;
 }
 .address-item:hover,
-.address-item:hover{
+.address-item:focus{
 	color: #404bbf;
 }
 .address-item:active{
@@ -275,10 +275,12 @@ body{
 	font-weight: 500;
 	line-height: 150%;
 	letter-spacing: 0.64px;
+	cursor: pointer
 }
-.categories-button:hover{
+.categories-button:hover,
+.categories-button:focus{
 	color: var(--white);
-	background-color: var(--ocean);
+	background-color: #404BBF;
 }
 
 
